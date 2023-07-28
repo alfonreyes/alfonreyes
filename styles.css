@@ -1,0 +1,77 @@
+*{
+    margin: 0 auto;
+    padding:0;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+}
+
+h3{
+    text-align: center;
+    border: 5px solid salmon;
+    background-color: beige;
+    border-radius: 20px;
+}
+.card-text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: center;
+    background-color: burlywood;
+}
+nav{
+    background-color: rgb(212, 135, 146) !important;
+}
+header nav div a{
+    font-family: cursive;
+    font-size:xx-small;
+    font-style: italic;
+}
+footer{
+    background-color: burlywood;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+h1{
+    background-color:rgb(212, 135, 146);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 
+    Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: blueviolet;
+    text-align: center;
+}
+P{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: blueviolet;
+   justify-content: center;
+   font-size: medium;
+   text-align: center;
+   border: 5px solid yellow;
+   margin: 20px; 
+   font-size: 20px;
+}
+h4{
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border: 20px solid mediumorchid;}
+.grid-container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: space-between;
+}
+.grid-container .card img{
+    height: 200px;
+}
+.galeria img{
+    display: flex;
+    justify-content: center;
+}
