@@ -75,3 +75,9 @@ h4{
     display: flex;
     justify-content: center;
 }
+.img-carrousel{
+    height: 500px;
+}
+.container-card{
+    display: flex;
+}
