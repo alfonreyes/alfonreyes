@@ -6,11 +6,45 @@
     justify-content: center;
 }
 
+body{
+    background-color: darksalmon ;
+}
+header nav ul li{
+    list-style-type: none;
+}
+header nav ul li a{
+    font-size: xx-large;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: blue;
+    margin: 5px;
+    padding: 10px;
+    color: black;
+    border: 2px solid #cecb2c;
+    border-radius: 15px;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+
+}
+.navbar{
+    display: flex;
+    position: sticky;
+}
 h3{
+    display: inline-block;
+    justify-content:space-between;
+    font-family: Dan ;
     text-align: center;
     border: 5px solid salmon;
     background-color: beige;
     border-radius: 20px;
+    margin: 20px;
+}
+.texto-nosotros{
+    display: flex;
+
 }
 .card-text{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -18,14 +52,7 @@ h3{
     text-align: center;
     background-color: burlywood;
 }
-nav{
-    background-color: rgb(212, 135, 146) !important;
-}
-header nav div a{
-    font-family: cursive;
-    font-size:xx-small;
-    font-style: italic;
-}
+
 footer{
     background-color: burlywood;
     justify-content: center;
@@ -71,13 +98,46 @@ h4{
 .grid-container .card img{
     height: 200px;
 }
-.galeria img{
-    display: flex;
-    justify-content: center;
-}
 .img-carrousel{
     height: 500px;
 }
-.container-card{
+section{
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: burlywood;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-one{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    border: 2px solid yellow;
+    border-radius: 100px;
+}
+.img-two{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    border: 2px solid yellow;
+    border-radius: 100px;
+}
+.img-trhe{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    border: 2px solid yellow;
+    border-radius: 100px;
+}
+.img-four{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    border: 2px solid yellow;
+    border-radius: 100px;
 }
