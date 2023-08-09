@@ -6,32 +6,6 @@
     justify-content: center;
 }
 
-body{
-    background-color: darksalmon ;
-}
-header nav ul li{
-    list-style-type: none;
-}
-header nav ul li a{
-    font-size: xx-large;
-    font-family: 'Dancing Script', cursive;
-    text-decoration: blue;
-    margin: 5px;
-    padding: 10px;
-    color: black;
-    border: 2px solid #cecb2c;
-    border-radius: 15px;
-}
-header{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 20px;
-
-}
-.navbar{
-    display: flex;
-    position: sticky;
-}
 h3{
     display: inline-block;
     justify-content:space-between;
@@ -141,3 +115,29 @@ section{
     border: 2px solid yellow;
     border-radius: 100px;
 }
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+  }
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    background-color: gold;
+  }
+  header nav ul li {
+    list-style-type: none;
+  }
+  header nav ul li a {
+    font-size: xx-large;
+    font-family: "Dancing Script", cursive;
+    text-decoration: blue;
+    margin: 5px;
+    padding: 10px;
+    color: black;
+    border: 2px solid #cecb2c;
+    border-radius: 15px;
+  }
