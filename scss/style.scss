@@ -1,3 +1,14 @@
-body{
-    background-color: black;
+*{
+    margin: 0 auto;
+    padding:0;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
 }
+
+
+@import './layout/navbar';
+@import './layout/carrousel';
+@import './layout/cardindex';
+
+

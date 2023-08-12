@@ -1,5 +1,54 @@
-body {
-  background-color: black;
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  justify-content: center;
+}
+
+header {
+  background-image: url(proyecto/imagenes\b ody.jpg);
+}
+header navbar {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 10px;
+}
+header navbar ul li {
+  list-style: none;
+  justify-content: center;
+}
+header navbar ul li a {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+  margin: 10px;
+  padding: 20px;
+}
+
+.img-carrousel {
+  height: 500px;
+}
+
+h3 {
+  font-family: "Borel", cursive;
+  color: coral;
+  border: 2px double violet;
+  border-radius: 30px;
+  background-color: rgb(235, 228, 226);
+  margin: 40px;
+}
+
+.flex-container {
+  display: flex;
+}
+.flex-container img {
+  width: 250px;
+  height: auto;
+  border-radius: 50px;
+  margin: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

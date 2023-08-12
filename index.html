@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
@@ -51,14 +52,15 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <h3>Somos una PYME familiar, nos dedicamos hace más de 10 años a fabricar productos de pastelería y distribuirlos tanto a nivel provincial como nacional.
+      <h3 data-aos="fade-down-left">Somos una PYME familiar, nos dedicamos hace más de 10 años a fabricar productos de pastelería y distribuirlos tanto a nivel provincial como nacional.
         Estamos catalogados como los mejores en el rubro, nuestros productos recorren el país en todo tipo de eventos, hacemos catering para eventos privados y tambien contamos con 3 sucursales.
         </h3>
 <section class="flex-container">
-  <img src="imagenes\pasteleria.jpg" class="img-one" alt="">
-  <img src="imagenes\pasteleria2.jpg" class="img-two" alt="">
-  <img src="imagenes\pasteleria3.jpeg" class="img-trhe" alt="">
-  <img src="imagenes\pasteleria4.jpg" class="img-four" alt="">
+  <img src="imagenes\pasteleria.jpg" data-aos="flip-left"
+  class="img-one" alt="">
+  <img src="imagenes\pasteleria2.jpg" data-aos="flip-up" class="img-two" alt="">
+  <img src="imagenes\pasteleria3.jpeg" data-aos="flip-left" class="img-trhe" alt="">
+  <img src="imagenes\pasteleria4.jpg" data-aos="flip-up" class="img-four" alt="">
 </section>
 </header>
 <a href="https://www.whatsapp.com/" target="_blank" class="position-fixed"><img src="imagenes\icono-wpp1.png" alt="icono-wpp"></a>
@@ -68,5 +70,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" 
     crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
