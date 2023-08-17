@@ -1,0 +1,93 @@
+//index//
+@media(max-width: 600px){
+    #header{
+        #navbar{
+            width: auto;
+        }
+    }
+    #carouselExampleCaptions{
+       width: 300px;
+       height: 50px;
+       margin-top: 70px;
+       margin-bottom: 1px;
+       margin-left: 35px ;
+    }
+    #img-carrousel{
+        height: 250px;
+    }
+    h3{
+        font-size: 16px;
+        margin: 10px;
+
+    }
+    .flex-container{
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+           }
+    footer{
+        h5{
+            font-size: 10px;
+        }
+        h6{
+            font-size: 10px;
+        }
+    }
+    #logowhatssap{
+        height: 50px;
+        width: 50px;
+    }
+    #logoempresa{
+        display: flex;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        left: 1px
+    }
+   h2{
+      font-size: 20px;
+    }
+   #texto-logo{
+    font-size: 15px;
+    position: relative;
+    right: 300px;
+    left: 0;
+    top: 40px
+   }
+   #texto-mapa {
+    left: 4px;
+    font-size: 20px;
+    margin: 50px;
+  }
+  #mapa{
+    right: 0px;
+    height: 150px;
+    width: 250px;
+    bottom: 20px;
+  }
+  h4{
+    font-size: 20px;
+    bottom: 0px;
+  }
+  #video{
+    height: 200px;
+    width: 300px;
+  }
+  .gallery-container{
+    .image{
+        width: 100px;
+        height: 100px;
+    }
+  }
+  #gallery{
+    transition: all 1sg;
+  }
+  #gallery:hover{
+   transform: translatey(40px);
+ }
+  .flex-container2{
+    margin: 1px;
+    flex-direction: column;
+    align-items: center;
+  }
+}

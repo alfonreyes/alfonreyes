@@ -1,0 +1,22 @@
+header{
+     nav{
+         $displey-flex: flex;
+         flex-wrap: wrap;
+         padding: 20px;
+         background: rgb(195,117,151);
+         background: radial-gradient(circle, rgba(195,117,151,1) 21%, rgba(233,156,148,1) 55%, rgba(233,148,170,1) 95%);
+      ul{
+         li{
+             list-style: none;
+             justify-content: center;
+             a{
+                font-family: 'Borel', cursive !important;
+                color: black;
+                font-size: 30px;
+                text-decoration: none;
+                padding: 20px; 
+            }
+        }
+    }
+  }
+}

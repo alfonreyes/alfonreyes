@@ -5,10 +5,18 @@
     text-align: center;
     justify-content: center;
 }
+$font-family: 'Borel', cursive;
 
 
 @import './layout/navbar';
 @import './layout/carrousel';
 @import './layout/cardindex';
-
-
+@import './layout/footer';
+@import './base/reset';
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Dancing+Script&display=swap');
+@import './layout/nosotros';
+@import './layout/gallery';
+@import './layout/mayoristas';
+@import './layout/contacto';
+@import './layout/mediaquerys';
+@import './layout/variables';

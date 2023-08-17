@@ -1,0 +1,32 @@
+footer{
+    display: flex;
+    justify-content: center;
+    background: rgb(144,91,144);
+    background: linear-gradient(162deg, rgba(144,91,144,1) 1%, rgba(240,195,212,1) 61%, rgba(247,255,255,1) 95%);
+    font-family: $font-family;
+    text-align: center;
+    $position: relative;
+    padding: 20px;
+    h5{
+        justify-content: center;
+        text-align: center;
+        margin-top: 15px;
+    }
+    img{
+            width: 50px;
+            height: 50px;
+            position: absolute;
+    }
+    .position-fixed{
+        position: fixed;
+        right: 100px;
+        bottom: 100px;
+        background-color: green;
+        border-radius: 50%;}
+    }
+    #logowhatssap:hover{
+        transition: all 1s;
+        transform: rotate(360deg);
+
+    }
+    

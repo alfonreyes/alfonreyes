@@ -1,0 +1,29 @@
+.flex-container3{
+    display: flex;
+    form{
+        display: flex;
+        position: relative;
+        justify-content: flex-end;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: 20px;
+        label{
+            margin: 10px;
+            font-family: $font-family;
+            font-size: 20px;
+        }
+        select{
+            font-family: $font-family;
+        }
+        option{
+            font-family: $font-family;
+        }
+        input{
+            font-family: $font-family;
+        }
+    }
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+}
