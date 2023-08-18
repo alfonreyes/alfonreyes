@@ -19,4 +19,7 @@ $font-family: 'Borel', cursive;
 @import './layout/mayoristas';
 @import './layout/contacto';
 @import './layout/mediaquerys';
-@import './layout/variables';
+@import './utilities/variables';
+@import './utilities/mixins';
+
+

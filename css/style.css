@@ -35,6 +35,11 @@ h3 {
   margin: 20px;
 }
 
+h1 {
+  color: blueviolet;
+  font-size: 40px;
+}
+
 .flex-container {
   display: flex;
 }
@@ -48,10 +53,9 @@ h3 {
 footer {
   display: flex;
   justify-content: center;
-  background: rgb(144, 91, 144);
-  background: linear-gradient(162deg, rgb(144, 91, 144) 1%, rgb(240, 195, 212) 61%, rgb(247, 255, 255) 95%);
   font-family: "Borel", cursive;
   text-align: center;
+  position: relative;
   padding: 20px;
 }
 footer h5 {
