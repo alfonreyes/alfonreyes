@@ -1,12 +1,14 @@
 
+$display-flex: flex; 
+$position: relative;
 #logoempresa{
     border-radius: 100px;
     position: relative;
     right: 500px;
 }
 #texto-logo{
-    display: flex;
-    position: relative;
+    display: $display-flex;
+    position: $position;
     font-size: 20px;
     border: none;
     left: 150px;
@@ -14,8 +16,8 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #mapa{
-    display: flex;
-    position: relative;
+    display: $display-flex;
+    position: $position;
     bottom: 200px;
     right: 400px;
     transition: all 2s;
@@ -25,8 +27,8 @@
     transform: translateY(100px);
 }
 #texto-mapa{
-    display: flex;
-    position: relative;
+    display: $display-flex;
+    position: $position;
     left: 200px;
     font-family: 'Borel', cursive;
     transition: all 1s;
@@ -37,6 +39,6 @@
 h4{
     font-family: 'Borel', cursive;
     font-size: 20px;
-    position: relative;
+    position: $position;
     bottom: 50px;
 }

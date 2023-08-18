@@ -1,12 +1,15 @@
-.flex-container3{
+@mixin form{
     display: flex;
-    form{
-        display: flex;
         position: relative;
         justify-content: flex-end;
         flex-direction: column;
         flex-wrap: nowrap;
         margin: 20px;
+}
+.flex-container3{
+    display: flex;
+    form{
+        @include form;
         label{
             margin: 10px;
             font-family: $font-family;
